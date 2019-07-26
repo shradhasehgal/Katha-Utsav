@@ -1,0 +1,139 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body 
+{
+	text-align: center;
+    padding: 2.5%;
+    font-size: 1.5em;
+    font-family: 'EB Garamond', serif;
+}
+
+.ans
+{
+	background: white;
+	font-family: 'EB Garamond', serif;
+    color: black;
+    font-weight: 100;
+}
+
+#intro
+{
+    font-size: 3em;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letter
+{
+    max-width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+p
+{
+    line-height: 1.5;
+}
+h1.ans{
+
+    font-size: 50px;
+    font-weight: 100;
+}
+
+input, textarea, select,
+.razorpay-payment-button {
+    outline: none;
+	/* display: block; */
+	width: 80%;
+	margin: 0 auto 7.5% auto;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 12.5px 20px;
+    font-size: 1em;
+	transition: all 0.3s ease;
+	background: white;
+	color: rgb(0, 0, 0);
+}
+
+h2{
+    background: rgb(194, 167, 224);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 100;
+    width: 30%;
+    max-width: 300px;
+    padding: 5px;
+    font-family: 'PT Serif', serif;
+    display: none;
+    text-align: center;
+}
+#submit-form
+{
+    background: rgb(194, 167, 224);
+    cursor: pointer;
+    border: 1px solid black;
+}
+#submit-form:hover
+{
+    border: 2px solid black;
+}
+
+form
+{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#around
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nm{
+    font-size: 1.5em;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.stry
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    white-space: pre-wrap;
+}
+
+#cat, #age
+{
+    display: inline-block;
+}
+
+.ah
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #intro
+    {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #intro
+    {
+        font-size: 1.5em;
+    }
+
+    .letter
+    {
+        max-width: 85%;
+    }
+
+}

@@ -1,0 +1,248 @@
+/*Theme Name: Katha Utsav
+Author: Shradha Sehgal
+Author URI: http://web.iiit.ac.in/~shradha.sehgal
+Description: The Katha Utsav theme is a custom-designed theme for the NGO Katha's annual writing competition, Utsav.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: katha, utsav, writing, competition, registration 
+Text Domain: Katha Utsav
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+#aboutut
+{
+    text-align: center; 
+    font-size: 4em; 
+    font-weight: 700;
+}
+
+ion-icon
+{
+    color: white;
+    padding: 7.5px;
+    border-radius: 100%;
+    transition: background-color 0.2s ease-out, color 0.3s ease-out;
+}
+
+ion-icon:hover {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    color: black;
+}
+
+.heading
+{
+    font-family: 'Literata', serif;
+    color: white;
+    font-size: 4em;
+}
+
+.live
+{
+	width: 80%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+p
+{
+    font-size: 1.4em;
+}
+
+.info
+{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.box 
+{
+	text-align: center;
+	background: white;
+	display: inline-block;
+	width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+input, textarea, #genre, #class, #first, #last, #email, #phone, #country, #city, #school, #language, #story_init, #story, #submit-form,
+.razorpay-payment-button, select {
+    outline: none;
+	display: block;
+	width: 80%;
+	margin: 0 auto 7.5% auto;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 12.5px 20px;
+    font-size: 1em;
+	transition: all 0.3s ease;
+	background: white;
+	color: rgb(0, 0, 0);
+}
+
+#country, #city, #first, #last
+{
+	width: 45%;
+	display: inline;
+}
+
+#country,#first
+{
+	margin-right: 7%;
+}
+
+::placeholder, select {
+    
+    font-family: 'Open Sans',sans-serif; 
+  } 
+
+
+#story {
+	height: 50%;
+}
+
+#butt,
+.razorpay-payment-button,
+#submit-form {
+	/* changes */
+	background: rgb(122, 40, 109);
+	border-color: rgb(122, 40, 109);
+	color: white;
+}
+
+
+
+.details
+{
+    margin: 40px 0px;
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(122, 40, 109);
+    font-weight: 100;
+    font-size: 1.9em;
+}
+
+.det
+{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.3em;
+}
+
+#thanks
+{
+    display: none;
+}
+
+.top
+{
+    background: white;
+    max-width: 90%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+#oof
+{
+
+    text-align:center; 
+    font-size: 2em; 
+    font-weight: 600;
+}
+
+#oof1
+{
+    text-align:center; 
+    font-size: 1.5em; 
+    font-weight: 600;
+}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+@media only screen and (max-width: 900px) {
+	p{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    p{
+        font-size: 1em;
+    };
+
+    .col-7
+    {
+        max-width:200%;
+    }
+
+    .details{
+        font-size: 1.3em;
+    }
+
+    .det
+    {
+        font-size: 1em;
+    }
+
+    #aboutut{
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    #oof, #oof1{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+	#aboutut{
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    #oof, #oof1{
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
