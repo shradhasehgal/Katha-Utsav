@@ -46,7 +46,7 @@ Template Name: School
                                 <b>Account No:</b>   00321000014764<br>
                                 <b>RTGS/NEFT IFSC:</b>     HDFC0000032 <br>
                                 <b>MICR:</b>   110240004<br>
-                                <b>Account Branch:</b>     SAFARDARJANG MARKET<br>
+                                <b>Account Branch:</b>     SAFDARJUNG MARKET<br>
                                 <b>Address:</b>    HDFC BANK LTD<br>
                                 C-5/32<br>
                                 SAFDARJUNG DEVELOPMENT AREA ( SDA )<br>
