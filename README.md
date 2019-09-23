@@ -1,4 +1,4 @@
 # Katha-Utsav 
 
-Website for Katha-Utsav (national writing competition), organized as a wordpress theme.   
+Website for Katha-Utsav (national writing competition). Written as a wordpress theme.   
 
